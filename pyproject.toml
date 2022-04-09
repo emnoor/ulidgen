@@ -1,9 +1,11 @@
 [tool.poetry]
 name = "ulidgen"
 version = "0.1.0"
-description = "CLI tool to generate ULID strings"
+description = "Generate ULID on the command line"
 authors = ["Enam Mijbah Noor <enammijbahnoor@gmail.com>"]
 license = "MIT"
+readme = "README.md"
+repository = "https://github.com/emnoor/ulidgen"
 
 [tool.poetry.scripts]
 ulidgen = "ulidgen.cli:main"
